@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  bankingsystem:
+    image: bankingsystem
+    build:
+      dockerfile: BankingSystem\Dockerfile
+    ports:
+      - "5254"
+      - "80"
